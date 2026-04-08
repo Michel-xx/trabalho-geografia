@@ -1,43 +1,74 @@
-@charset "utf-8";
+@charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-h1 {
-    text-align: center;
-    font-family: "Kaushan Script", sans-serif;
-    font-size: 60px;
-    color: rgb(0, 0, 0);
-    margin: 1px 0;
-    margin-top: 1px 0;
-}
-
-h1#principal {
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    margin: 40;
-}
-h2, h3 {
-    text-align: center;
-    font-family: "Work Sans", sans-serif;
-}   
-
-p {
-    text-align: justify;
-    text-align: center;
-}
-
 body {
-    background-color: #ffffff;
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    color: rgb(0, 0, 0);
+    font-family: 'Work Sans', sans-serif;
+    background-color: #c7c7c7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #292929;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: 'Kaushan Script', cursive;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px; 
+    font-weight: lighter;
+    font-size: 46px;
+}
+
+header p {
+    color: #ffffff;
+    text-align: center;
+    margin: -20px 0 20px 0;
+    font-size: 18px;
+}
+
+header nav{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: -20px;
+}
+
+nav > a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+}
+
+main {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 li {
-    font-family: Arial, sans-serif;
+    font-weight: bolder;
 }
 
-p, li {
-    font-family: code, monospace;
-    font-size: 18px;
+footer {
+    background-color: #292929;
+    color: #ffffff;
+    text-align: center;
+    padding: 1px;
+    margin-top: 10px;
 }
