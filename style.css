@@ -52,7 +52,11 @@ nav > a {
 }
 
 #maquete {
-    margin: 0px;
+    margin: -5px;
+}
+
+#credito {
+    text-align: right;
 }
 
 main {
@@ -88,3 +92,4 @@ img {
     max-width: 70%;
     height: auto;
 }
+
