@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
-    background-color: #c7c7c7;
+    background-color: #81A66B;
     margin: 0;
     padding: 0;
 }
@@ -46,6 +46,15 @@ nav > a {
     margin: 10px;
 }
 
+#texto {
+    padding-right: 10px;
+    border-right: #505050 solid 2px;
+}
+
+#maquete {
+    margin: 0px;
+}
+
 main {
     max-width: 700px;
     margin: auto;
@@ -71,4 +80,11 @@ footer {
     text-align: center;
     padding: 1px;
     margin-top: 10px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 70%;
+    height: auto;
 }
